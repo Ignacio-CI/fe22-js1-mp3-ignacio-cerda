@@ -41,7 +41,7 @@ function displayCountry(countryData){
 
     const underlineInfo = document.createElement('h4');
     infoContainer.append(underlineInfo);
-    underlineInfo.innerText = '*The country with the highest population is underlined in red'
+    underlineInfo.innerText = '*The highest population is underlined in red.'
     underlineInfo.style.color = 'rgb(255, 140, 132)';
 
     // Här samlas befolkingsdata från alla länder
